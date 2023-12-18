@@ -2,20 +2,20 @@ import "./pm.css";
 
 const PartnersMarquee = () => {
   const partners = [
-    "public/aa.png",
-    "public/av.png",
-    "public/mac.png",
-    "public/nike.png",
-    "public/phd.png",
-    "public/lv.png",
-    // "public/cl.png",
-    // "public/gs.png",
-    // "public/mab.png",
-    // "public/png.png",
-    // "public/sh.png",
-    // "public/tbx.png",
-    // "public/tg.png",
-    // "public/wg.png",
+    "/aa.png",
+    "/av.png",
+    "/mac.png",
+    "/nike.png",
+    "/phd.png",
+    "/lv.png",
+    // "/cl.png",
+    // "/gs.png",
+    // "/mab.png",
+    // "/png.png",
+    // "/sh.png",
+    // "/tbx.png",
+    // "/tg.png",
+    // "/wg.png",
   ];
   return (
     <div className="partners">
