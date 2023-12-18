@@ -1,0 +1,29 @@
+.prof-pic {
+  border-radius: 10px;
+}
+
+.profile {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.country {
+  color: slategray;
+  font-weight: 500;
+}
+
+.cname {
+  /* font-size: var(--big-font); */
+  color: var(--blue) !important;
+}
+.bio {
+  margin-top: 10px;
+}
+
+.vote {
+  background-color: rgb(254, 56, 89);
+  color: white;
+  font-weight: 600;
+}

@@ -1,0 +1,9 @@
+.ev-title {
+  font-size: calc(16px + 3.5vw);
+  /* color: #000000; */
+  margin: 10px 0px;
+}
+
+.ev-detts {
+  padding: var(--norm-padding);
+}
