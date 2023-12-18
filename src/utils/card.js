@@ -1,6 +1,6 @@
 const cardDets = [
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     title: "How To Participate",
     text: `Think you have what it takes to be the next beauty queen? Register
             now and seize the opportunity to step into the world of glitz and
@@ -8,7 +8,7 @@ const cardDets = [
     btntext: "I want to Register",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     title: "Want to vote?",
     text: `Think you have what it takes to be the next beauty queen? Register
             now and seize the opportunity to step into the world of glitz and
@@ -20,17 +20,17 @@ const cardDets = [
 
 export const eventDets = [
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     title: "Grand Prize",
     text: `A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.`,
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     title: "First Runner Up",
     text: `A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.`,
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     title: "Second Runner Up",
     text: `A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.`,
   },
@@ -38,7 +38,7 @@ export const eventDets = [
 
 export const galContestants = [
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -47,7 +47,7 @@ export const galContestants = [
     id: "8h89",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -56,7 +56,7 @@ export const galContestants = [
     id: "s934",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -65,7 +65,7 @@ export const galContestants = [
     id: "ci388",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -74,7 +74,7 @@ export const galContestants = [
     id: "sai29",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -83,7 +83,7 @@ export const galContestants = [
     id: "dsn8",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -92,7 +92,7 @@ export const galContestants = [
     id: "nds8",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -101,7 +101,7 @@ export const galContestants = [
     id: "d828s",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -110,7 +110,7 @@ export const galContestants = [
     id: "381hd",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -119,7 +119,7 @@ export const galContestants = [
     id: "da923",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -128,7 +128,7 @@ export const galContestants = [
     id: "bz98w9",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -137,7 +137,7 @@ export const galContestants = [
     id: "hd88U",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -146,7 +146,7 @@ export const galContestants = [
     id: "sa8h2",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -155,7 +155,7 @@ export const galContestants = [
     id: "skmsi9",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -164,7 +164,7 @@ export const galContestants = [
     id: "ds89382",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -173,7 +173,7 @@ export const galContestants = [
     id: "dinss8h345",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -182,7 +182,7 @@ export const galContestants = [
     id: "dnsw4rn48",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -191,7 +191,7 @@ export const galContestants = [
     id: "bnd284",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -200,7 +200,7 @@ export const galContestants = [
     id: "nfidi983",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -209,7 +209,7 @@ export const galContestants = [
     id: "1mks339",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -218,7 +218,7 @@ export const galContestants = [
     id: "8sh4b89j",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -227,7 +227,7 @@ export const galContestants = [
     id: "ljk092s8",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -236,7 +236,7 @@ export const galContestants = [
     id: "jsi2n&2",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",
@@ -245,7 +245,7 @@ export const galContestants = [
     id: "nf9393",
   },
   {
-    img: "/public/hero.jpg",
+    img: "/hero.jpg",
     name: "Kane",
     bio: "A stunning diamond tiara and a fully sponsored luxury vacation to a private island retreat.",
     age: "25",

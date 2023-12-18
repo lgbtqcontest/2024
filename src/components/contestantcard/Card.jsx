@@ -4,7 +4,7 @@ const ContestantCard = () => {
   return (
     <div className="c-card">
       <div className="small-event">
-        <img src="/public/model.png" className="ev-img" alt="" />
+        <img src="/model.png" className="ev-img" alt="" />
         <div className="ev-dets">
           <h1 className="ev-title">🏳️‍🌈Prizes Fit for Royalty</h1>
           <p>
