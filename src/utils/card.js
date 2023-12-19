@@ -9,7 +9,7 @@ const cardDets = [
     mode: "contest",
   },
   {
-    img: "public/d3.jpg",
+    img: "d3.jpg",
     title: "Want to vote?",
     text: `Think you have what it takes to be the next beauty queen? Register
             now and seize the opportunity to step into the world of glitz and
@@ -40,7 +40,7 @@ export const eventDets = [
 
 export const galContestants = [
   {
-    img: "/public/25.jpg",
+    img: "/25.jpg",
     name: "Ava Johnson",
     country: "USA",
     bio: "Passionate about fashion and runway modeling. Ava is known for her striking looks and confident walk.",
@@ -50,7 +50,7 @@ export const galContestants = [
     id: "8h89",
   },
   {
-    img: "/public/h1.jpg",
+    img: "/h1.jpg",
     name: "Ethan Thompson",
     country: "Canada",
     bio: "Ethan is a versatile model with experience in both fashion and commercial shoots. His charismatic personality shines on and off the camera.",
@@ -60,7 +60,7 @@ export const galContestants = [
     id: "s934",
   },
   {
-    img: "/public/26.jpg",
+    img: "/26.jpg",
     name: "Anastasia Ivanova",
     country: "Russia",
     bio: "Anastasia brings an elegant and timeless beauty to the modeling world. Her portfolio includes high-end fashion and editorial work.",
@@ -70,7 +70,7 @@ export const galContestants = [
     id: "ci388",
   },
   {
-    img: "/public/h3.jpg",
+    img: "/h3.jpg",
     name: "Mateusz Nowak",
     country: "Poland",
     bio: "Mateusz is a rising star in the Polish modeling scene. His unique features and expressive poses make him stand out in the crowd.",
@@ -80,7 +80,7 @@ export const galContestants = [
     id: "sai29",
   },
   {
-    img: "/public/h4.jpg",
+    img: "/h4.jpg",
     name: "Lotte Van Damme",
     country: "Netherlands",
     bio: "Lotte's natural beauty and charisma make her a sought-after model in the Netherlands. She has graced the covers of top fashion magazines.",
@@ -90,7 +90,7 @@ export const galContestants = [
     id: "dsn8",
   },
   {
-    img: "/public/h5.jpg",
+    img: "/h5.jpg",
     name: "Lucas De Vries",
     country: "Belgium",
     bio: "Lucas has a strong presence on the runway and in print. His chiseled features and confident style make him a favorite among designers.",
@@ -100,7 +100,7 @@ export const galContestants = [
     id: "nds8",
   },
   {
-    img: "/public/h6.jpg",
+    img: "/h6.jpg",
     name: "Olivia Smith",
     country: "USA",
     bio: "Olivia is known for her versatility in modeling, from casual wear to high fashion. She brings a fresh and youthful energy to every shoot.",
@@ -110,7 +110,7 @@ export const galContestants = [
     id: "d828s",
   },
   {
-    img: "/public/h7.jpg",
+    img: "/h7.jpg",
     name: "Jacob Miller",
     country: "Canada",
     bio: "Jacob is a dynamic model with a keen eye for fashion trends. His portfolio includes both urban and editorial styles.",
@@ -120,7 +120,7 @@ export const galContestants = [
     id: "381hd",
   },
   {
-    img: "/public/h8.jpg",
+    img: "/h8.jpg",
     name: "Ekaterina Petrova",
     country: "Russia",
     bio: "Ekaterina is a Russian beauty with a passion for art and expression. She is known for her captivating eyes and graceful poses.",
@@ -130,7 +130,7 @@ export const galContestants = [
     id: "da923",
   },
   {
-    img: "/public/h9.jpg",
+    img: "/h9.jpg",
     name: "Karol Kowalski",
     country: "Poland",
     bio: "Karol is a talented Polish model with a strong presence on the catwalk. His confident and bold style sets him apart in the industry.",
@@ -140,7 +140,7 @@ export const galContestants = [
     id: "bz98w9",
   },
   {
-    img: "/public/10.jpg",
+    img: "/10.jpg",
     name: "Sophie Jansen",
     country: "Netherlands",
     bio: "Sophie is a Dutch model known for her elegance and poise. She has worked with renowned designers and photographers, creating captivating visuals.",
@@ -150,7 +150,7 @@ export const galContestants = [
     id: "hd88U",
   },
   {
-    img: "/public/11.jpg",
+    img: "/11.jpg",
     name: "Sebastian Van Den Berg",
     country: "Belgium",
     bio: "Sebastian is a Belgian model with a strong presence in the fashion industry. His classic yet modern style appeals to a wide audience.",
@@ -160,7 +160,7 @@ export const galContestants = [
     id: "sa8h2",
   },
   {
-    img: "/public/12.jpg",
+    img: "/12.jpg",
     name: "Emma Rodriguez",
     country: "USA",
     bio: "Emma is a trendsetter in the American modeling scene. Her magnetic personality and photogenic qualities make her a standout model.",
@@ -170,7 +170,7 @@ export const galContestants = [
     id: "skmsi9",
   },
   {
-    img: "/public/13.jpg",
+    img: "/13.jpg",
     name: "Liam Wilson",
     country: "Canada",
     bio: "Liam is a Canadian model with a laid-back charm and a knack for effortlessly pulling off diverse styles. His authenticity resonates with audiences.",
@@ -180,7 +180,7 @@ export const galContestants = [
     id: "ds89382",
   },
   {
-    img: "/public/14.jpg",
+    img: "/14.jpg",
     name: "Natalia Volkova",
     country: "Russia",
     bio: "Natalia is a Russian beauty with a penchant for editorial and avant-garde fashion. Her striking features and unique poses captivate audiences.",
@@ -190,7 +190,7 @@ export const galContestants = [
     id: "dinss8h345",
   },
   {
-    img: "/public/15.jpg",
+    img: "/15.jpg",
     name: "Marek Kowalczyk",
     country: "Poland",
     bio: "Marek is a rising star in the Polish modeling industry. His rugged yet refined look adds an edge to every shoot.",
@@ -200,7 +200,7 @@ export const galContestants = [
     id: "dnsw4rn48",
   },
   {
-    img: "/public/16.jpg",
+    img: "/16.jpg",
     name: "Isabel Vos",
     country: "Netherlands",
     bio: "Isabel is a Dutch model known for her versatility and ability to adapt to various fashion genres. She exudes confidence on and off the runway.",
@@ -210,7 +210,7 @@ export const galContestants = [
     id: "bnd284",
   },
   {
-    img: "/public/17.jpg",
+    img: "/17.jpg",
     name: "Julien Dubois",
     country: "Belgium",
     bio: "Julien is a Belgian model with a classic yet contemporary style. His timeless appeal makes him a sought-after face in the fashion industry.",
@@ -220,7 +220,7 @@ export const galContestants = [
     id: "nfidi983",
   },
   {
-    img: "/public/18.jpg",
+    img: "/18.jpg",
     name: "Chloe Anderson",
     country: "USA",
     bio: "Chloe is a rising star in the American modeling scene. Her expressive eyes and dynamic poses have caught the attention of top designers.",
@@ -230,7 +230,7 @@ export const galContestants = [
     id: "1mks339",
   },
   {
-    img: "/public/19.jpg",
+    img: "/19.jpg",
     name: "Daniel Harper",
     country: "Canada",
     bio: "Daniel is a Canadian model known for his charismatic smile and positive energy. He effortlessly blends casual and high-fashion looks.",
@@ -240,7 +240,7 @@ export const galContestants = [
     id: "8sh4b89j",
   },
   {
-    img: "/public/20.jpg",
+    img: "/20.jpg",
     name: "Anya Petrov",
     country: "Russia",
     bio: "Anya brings a touch of elegance to the Russian modeling scene. Her graceful demeanor and sophisticated style set her apart in the industry.",
@@ -250,7 +250,7 @@ export const galContestants = [
     id: "ljk092s8",
   },
   {
-    img: "/public/21.jpg",
+    img: "/21.jpg",
     name: "Piotr Nowak",
     country: "Poland",
     bio: "Piotr is a Polish model with a strong presence and a distinct sense of style. His bold and confident looks make a lasting impression.",
@@ -260,7 +260,7 @@ export const galContestants = [
     id: "jsi2n&2",
   },
   {
-    img: "/public/22.jpg",
+    img: "/22.jpg",
     name: "Avery Thompson",
     country: "USA",
     bio: "Avery is a dynamic force in the American modeling scene. Their unique androgynous style challenges traditional beauty norms and captivates audiences.",
@@ -270,7 +270,7 @@ export const galContestants = [
     id: "nf9393",
   },
   {
-    img: "/public/23.jpg",
+    img: "/23.jpg",
     name: "Elena Petrovich",
     country: "Russia",
     bio: "Elena is a Russian model known for her ethereal beauty and versatility. Her ability to convey emotion through her poses makes her a sought-after talent.",

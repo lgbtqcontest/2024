@@ -12,7 +12,7 @@ const ContestantCard = () => {
             to be dazzled
           </p>
         </div>
-        <img src="/public/d1.jpg" className="ev-img" alt="" />
+        <img src="/d1.jpg" className="ev-img" alt="" />
       </div>
     </div>
   );
