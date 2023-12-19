@@ -56,7 +56,7 @@ export const galContestants = [
     id: "s934",
   },
   {
-    img: "/wp.jpg",
+    img: "/wp.png",
     name: "Anastasia Ivanova",
     country: "Russia",
     bio: "Anastasia brings an elegant and timeless beauty to the modeling world. Her portfolio includes high-end fashion and editorial work.",
