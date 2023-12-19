@@ -2,18 +2,14 @@ const cardDets = [
   {
     img: "",
     title: "How To Participate",
-    text: `Think you have what it takes to be the next beauty queen? Register
-            now and seize the opportunity to step into the world of glitz and
-            glamour.`,
+    text: `To enter the contest, submit your entry along with a brief description of your story, talent, or expression. Our esteemed panel of judges will select finalists who will compete for the top prizes. Remember, the LGBTQ Contest is about embracing individuality and celebrating the strength that comes from being authentically you.`,
     btntext: "I want to Register",
     mode: "contest",
   },
   {
     img: "d3.jpg",
     title: "Want to vote?",
-    text: `Think you have what it takes to be the next beauty queen? Register
-            now and seize the opportunity to step into the world of glitz and
-            glamour.`,
+    text: `To support your favorite contestant, you'll need to create a voting account. Your vote counts, and it's your chance to uplift voices that resonate with you. Join us in recognizing and celebrating the diversity within our LGBTQ community.`,
     btntext: "Create myVoting Account",
     btntext2: "See Contestants",
     mode: "vote",
@@ -60,7 +56,7 @@ export const galContestants = [
     id: "s934",
   },
   {
-    img: "/26.jpg",
+    img: "/wp.jpg",
     name: "Anastasia Ivanova",
     country: "Russia",
     bio: "Anastasia brings an elegant and timeless beauty to the modeling world. Her portfolio includes high-end fashion and editorial work.",

@@ -67,7 +67,7 @@
 
   .inner-modal {
     max-width: 400px;
-    max-height: 580px;
+    height: auto;
     padding: 25px;
     border-radius: 10px;
   }

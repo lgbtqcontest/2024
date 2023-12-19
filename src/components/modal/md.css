@@ -18,7 +18,7 @@
   background-color: #f7f7f7;
   width: 100%;
   height: 100%;
-  padding: 30px var(--norm-padding);
+  padding: 30px 0;
   padding-bottom: 20px !important;
   position: relative;
   /* overflow: hidden; */
@@ -43,7 +43,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   z-index: 1;
+  padding: 15px;
+}
+
+.lil {
+  font-size: 11px;
 }
 
 .open::-webkit-scrollbar {
@@ -117,7 +123,7 @@ svg {
 
 .md-txt,
 sub {
-  color: slategray;
+  color: rgb(28, 31, 34);
   font-size: var(--medium-font);
 }
 
@@ -148,4 +154,10 @@ hr {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+}
+
+@media screen and(min-width: 768px) {
+  .open {
+    overflow-y: scroll;
+  }
 }
