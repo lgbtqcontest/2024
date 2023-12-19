@@ -20,6 +20,7 @@
   height: 100%;
   padding: 30px var(--norm-padding);
   padding-bottom: 20px !important;
+  position: relative;
   /* overflow: hidden; */
 }
 

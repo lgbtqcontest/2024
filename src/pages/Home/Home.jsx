@@ -6,6 +6,7 @@ import { eventDets } from "../../utils/card.js";
 import cardDets from "../../utils/card.js";
 import Card from "../../components/card/Card.jsx";
 import Details from "../../components/details/Details.jsx";
+import "./hm.css";
 
 const Home = () => {
   return (
@@ -13,14 +14,28 @@ const Home = () => {
       <Hero />
       <PartnersMarquee />
       <ContestantCard />
-      {eventDets.map((event, key) => {
-        console.log(event);
-        const { img, title, text } = event;
-        return <Details img={""} title={title} text={text} key={key} />;
-      })}
+      <div className="prize">
+        <div className="shade">
+          <div className="sh">
+            {eventDets.map((event, key) => {
+              console.log(event);
+              const { img, title, text } = event;
+              return (
+                <Details
+                  img={""}
+                  title={title}
+                  text={text}
+                  key={key}
+                  idx={`key${key}`}
+                />
+              );
+            })}
+          </div>
+        </div>
+      </div>
 
       {cardDets.map((card, key) => {
-        const { img, title, text, btntext, btntext2 } = card;
+        const { img, title, text, btntext, btntext2, mode } = card;
         return (
           <Card
             img={img}
@@ -28,6 +43,7 @@ const Home = () => {
             text={text}
             btntext={btntext}
             btntext2={btntext2}
+            mode={mode}
             key={key}
           />
         );

@@ -1,7 +1,10 @@
 import "./nav.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import Modal from "../modal/Modal";
 
 const Nav = () => {
+  const [open, setOpen] = useState(false);
   return (
     <nav>
       <div className="lgbtq">
@@ -18,9 +21,16 @@ const Nav = () => {
           <span className="lit">Miss</span> Dubai 2024
         </h1>
       </Link>
-      <button role="button" className="menu-btn">
+      <button role="button" className="menu-btn" onClick={() => setOpen(!open)}>
         <span className="my">my</span>Vote Account
       </button>
+      <Modal
+        open={open}
+        setOpen={setOpen}
+        mode={"Vote"}
+        text={`To vote we need to verify that you are human and not a robot by
+            creating an account using options below`}
+      />
     </nav>
   );
 };

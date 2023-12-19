@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 // import Gallery from "../../components/gallery/Gallery.jsx";
 import Card from "../../components/gallery/Card.jsx";
 import { galContestants } from "../../utils/card";
+import Modal from "../../components/modal/Modal.jsx";
 import "./c.css";
 
 localStorage.setItem("gallery", JSON.stringify(galContestants));
@@ -9,6 +10,7 @@ localStorage.setItem("gallery", JSON.stringify(galContestants));
 const Contestants = () => {
   const seeMoreBtn = useRef(null);
   const [current, setCurrent] = useState(1);
+  const [open, setOpen] = useState(false);
   const quantity = 10;
   const [models, setModels] = useState([...galContestants.slice(0, 10)]);
 
@@ -51,7 +53,16 @@ const Contestants = () => {
       <button className="see" ref={seeMoreBtn} onClick={() => seeMore()}>
         See More
       </button>
-      <button className=" register become">Register</button>
+      <button className=" register become" onClick={() => setOpen(!open)}>
+        Register
+      </button>
+      <Modal
+        open={open}
+        setOpen={setOpen}
+        mode={"Contest"}
+        text={`To contest we need to verify that you are human and not a robot by
+            creating an account using options below`}
+      />
     </div>
   );
 };

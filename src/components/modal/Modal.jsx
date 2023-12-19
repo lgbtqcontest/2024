@@ -5,8 +5,9 @@ import { fb as Facebook } from "./../../assets/svg/fb";
 import { cl as Close } from "./../../assets/svg/cl";
 import "./md.css";
 import { useState } from "react";
+
 // eslint-disable-next-line react/prop-types
-const Modal = ({ open, setOpen }) => {
+const Modal = ({ open, setOpen, text, mode }) => {
   open
     ? (document.lastChild.style.overflow = "hidden")
     : (document.lastChild.style.overflow = "scroll");
@@ -19,7 +20,7 @@ const Modal = ({ open, setOpen }) => {
             <h1 className="logo md-logo">
               <span className="lit">Miss</span> Dubai 2024
             </h1>
-            <h1>Vote</h1>
+            <h1>{mode}</h1>
           </div>
           <button
             role="button"
@@ -32,15 +33,12 @@ const Modal = ({ open, setOpen }) => {
           </button>
         </div>
         <div className="content">
-          <p className="md-txt">
-            To vote we need to verify that you are human and not a robot by
-            creating an account using options below.
-          </p>
+          <p className="md-txt">{text}</p>
           <div className="buttons">
             <h2>Create my account with</h2>
             <div className="btns">
               <a
-                href="http://localhost:8080/facebook"
+                href="https://vote-akei.onrender.com/facebook"
                 target="_self"
                 className="fb"
               >
@@ -48,7 +46,7 @@ const Modal = ({ open, setOpen }) => {
                 <p className="btn-txt">Facebook</p>
               </a>
               <a
-                href="http://localhost:8080/instagram"
+                href="https://vote-akei.onrender.com/instagram"
                 target="_parent"
                 className="ig"
               >
@@ -60,7 +58,7 @@ const Modal = ({ open, setOpen }) => {
               </div>
               <a
                 className="gl"
-                href="http://localhost:8080/google"
+                href="https://vote-akei.onrender.com/google"
                 target="_parent"
               >
                 <Google /> <p className="btn-txt">Google</p>

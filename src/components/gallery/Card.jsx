@@ -9,9 +9,7 @@ const Card = (props) => {
     <Link className={"cont " + cn} to={`/profile/${id}`}>
       <img src={img} className="g-img" alt="blog post one" />
       <div className="det">
-        <h2 className="name">
-          {name}, {age}
-        </h2>
+        <h2 className="name">{name}.</h2>
         <p className="country">{country}</p>
       </div>
     </Link>

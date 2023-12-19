@@ -9,8 +9,7 @@
     #fafafa 50%,
     transparent 100%
   );
-  padding: calc(0.5rem + 1vh) var(--norm-padding) calc(2rem + 1vh)
-    var(--norm-padding);
+  padding: calc(0.5rem + 1vh) var(--norm-padding) 0 var(--norm-padding);
   display: flex;
   flex-direction: column;
   gap: 20px;

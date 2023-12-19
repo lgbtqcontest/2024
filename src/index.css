@@ -49,9 +49,16 @@
   ); /* Color of the scrollbar thumb */ /* Rounded corners of the thumb */
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #f7f7f7 !important;
   position: relative;
+  overflow-x: hidden;
+  max-width: 1400px;
+  margin: auto;
 }
 
 button {
@@ -61,6 +68,7 @@ button {
   padding: var(--reg-btn-padding);
   border-radius: 5px;
   transition: 0.07s linear;
+  color: #000000;
 }
 
 button:active {
