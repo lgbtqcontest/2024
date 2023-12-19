@@ -18,7 +18,8 @@ const Modal = ({ open, setOpen, text, mode }) => {
         <div className="md-top">
           <div className="left">
             <h1 className="logo md-logo">
-              <span className="lit">Miss</span> Dubai 2024
+              <span className="lit md-lit">Unity in Diversity</span> Belgium
+              2024
             </h1>
             <h1>{mode}</h1>
           </div>

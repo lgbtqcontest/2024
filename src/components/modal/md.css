@@ -121,6 +121,15 @@ svg {
   color: #000;
 }
 
+.md-logo {
+  font-size: 2rem;
+}
+
+.lit {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
 .md-txt,
 sub {
   color: rgb(28, 31, 34);

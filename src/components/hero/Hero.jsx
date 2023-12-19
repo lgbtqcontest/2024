@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="intro">
         <h3 className="sub-intro">The Exclusive Beauty Pageant</h3>
         <h1 className="main-intro">
-          Unveiling Elegance: The Luxury Beauty Pageant Experience
+          Unveiling Elegance: Unveiling the LGBTQ Spectrum – Join the Contest!
         </h1>
       </div>
       <div className="img-container">

@@ -18,7 +18,7 @@ const Nav = () => {
       </div>
       <Link to={"/"}>
         <h1 className="logo">
-          <span className="lit">Miss</span> Dubai 2024
+          <span className="lit">Unity in Diversity</span> Belgium 2024
         </h1>
       </Link>
       <button role="button" className="menu-btn" onClick={() => setOpen(!open)}>

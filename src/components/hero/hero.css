@@ -29,7 +29,7 @@
 
 .main-intro {
   font-size: var(--big-font);
-  color: #353535;
+  color: #2d2c2c !important;
 }
 
 .img-container {
