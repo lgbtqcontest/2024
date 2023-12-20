@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "build/**", // Assuming your build output is in the "build" directory
+      "use": "@now/static-builder",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" } // Redirect all routes to index.html
+  ]
+}
